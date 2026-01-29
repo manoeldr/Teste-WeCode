@@ -1,0 +1,132 @@
+.know-more-section {
+    padding: 40px 0;
+    background: #F7F7F7;
+    position: relative;
+}
+
+.know-more-header {
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+.know-more-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1D1D1D;
+    margin-bottom: 8px;
+}
+
+.know-more-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #666;
+}
+
+.know-more-swiper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.know-more-swiper .swiper-wrapper {
+    align-items: center;
+}
+
+.know-more-swiper .swiper-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.know-more-card {
+    width: 361px;
+    flex-shrink: 0;
+}
+
+.know-more-image {
+    width: 361px;
+    height: 241.38px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.know-more-content {
+    width: 361px;
+    padding: 0 16px;
+}
+
+.know-more-card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1D1D;
+    margin-bottom: 12px;
+}
+
+.know-more-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #1D1D1D;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.know-more-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #1D1D1D;
+    text-decoration: underline;
+    transition: color var(--transition-fast);
+    display: inline-block;
+}
+
+.know-more-link:hover {
+    color: var(--color-primary);
+}
+
+.know-more-pagination {
+    position: absolute !important;
+    bottom: 20px !important;
+    right: 40px !important;
+    left: auto !important;
+    transform: none !important;
+    width: auto !important;
+    display: flex;
+    gap: 8px;
+}
+
+.know-more-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #999;
+    opacity: 1;
+    margin: 0 !important;
+}
+
+.know-more-pagination .swiper-pagination-bullet-active {
+    background: #1D1D1D;
+}
+
+@media (max-width: 768px) {
+    .know-more-section {
+        padding: 30px 0;
+    }
+    
+    .know-more-title {
+        font-size: 20px;
+    }
+    
+    .know-more-pagination {
+        right: 20px !important;
+    }
+}
