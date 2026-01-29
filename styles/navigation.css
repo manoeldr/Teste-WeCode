@@ -1,0 +1,23 @@
+.navigation-banners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-pequeno {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-grande {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navigation-banners {
+        width: 100%;
+    }
+}
