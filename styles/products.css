@@ -90,12 +90,12 @@
 .add-to-cart-btn img {
     width: 24px;
     height: 24px;
+    filter: brightness(0);
     transition: all var(--transition-fast);
 }
 
 .add-to-cart-btn:hover img {
     transform: scale(1.2);
-    border-radius: 8px;
 }
 
 .discount-badge {
